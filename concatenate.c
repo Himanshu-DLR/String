@@ -7,10 +7,8 @@ int main()
     scanf("%s", str1);
     printf("Enter second string: ");
     scanf("%s", str2);
-    
     strcpy(result, str1);
     strcat(result, str2);
-    
     printf("Concatenated string: %s\n", result);
     return 0;
 }
